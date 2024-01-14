@@ -19,7 +19,6 @@
   #navbar {
     display: flex;
     width: 30%;
-    margin-right: 40px;
   }
   #navbar a {
     color: white;
