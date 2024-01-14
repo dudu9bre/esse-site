@@ -18,7 +18,7 @@
   }
   #navbar {
     display: flex;
-    width: 20%;
+    margin-right: 5px;
   }
   #navbar a {
     color: white;
@@ -52,7 +52,6 @@
     font-weight: 200;
   }
   #projects {
-    height:1000px;
     background: linear-gradient(45deg, #45567D, #000022);
     text-align: center;
   }
@@ -165,8 +164,52 @@
   }
   @media (max-width: 500px) {
     #navbar {
-      font-size: .7em;
-      margin-right: 110px;
+      font-size: .8em;
+    }
+    #welcome-section {
+      height: 500px;
+    }
+    #welcome-section h1 {
+      font-size: 3em;
+    }
+    #welcome-section p {
+      font-size: 1.5em;
     }
   }
-  
+  @media (max-width: 450px) {
+    #contact h1 {
+      font-size: 2em;
+    }
+    #contact p {
+      font-size: 1.1em;
+    }
+    #projects #h11 {
+      font-size: 1.5em;
+    }
+    #contact .social-icons {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    } 
+  }
+  @media (max-width: 400px) {
+    #welcome-section h1 {
+      font-size: 2em;
+    }
+    #welcome-section p {
+      font-size: 1.2em;
+    }
+    #projects .project-tile {
+      width: 250px;
+    }
+  }
+  @media (max-width: 270px) {
+    #navbar a {
+      font-size: 1.1em;
+    }
+    #welcome-section h1 {
+      font-size: 1.8em;
+    }
+    #welcome-section p {
+      font-size: 1.1em;
+    }
+  }
